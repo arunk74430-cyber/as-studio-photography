@@ -1,97 +1,69 @@
-body {
-
-    margin: 0;
-    font-family: Arial;
-    background: black;
-    color: white;
-
+body{
+margin:0;
+font-family:Arial;
+background:#111;
+color:white;
 }
 
-
-header {
-
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    background: #111;
-
+header{
+display:flex;
+justify-content:space-between;
+padding:20px;
+background:black;
 }
 
-
-nav a {
-
-    color: white;
-    margin: 15px;
-    text-decoration: none;
-
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
 }
 
-
-.hero {
-
-    height: 500px;
-    background: url('arun.jpg') center/cover no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-
+.hero{
+height:90vh;
+background:url("https://images.unsplash.com/photo-1519741497674-611481863552");
+background-size:cover;
+text-align:center;
+padding-top:200px;
 }
 
-
-.hero h1 {
-
-    font-size: 50px;
-    color: white;
-
+.hero h1{
+font-size:50px;
 }
 
-
-button {
-
-    padding: 12px 25px;
-    background: gold;
-    border: none;
-    cursor: pointer;
-
+button{
+background:gold;
+border:none;
+padding:12px 25px;
+font-size:16px;
+cursor:pointer;
 }
 
-
-.about {
-
-    padding: 60px;
-    text-align: center;
-
+section{
+padding:60px;
+text-align:center;
 }
 
-
-.portfolio {
-
-    padding: 60px;
-    text-align: center;
-
+.gallery{
+display:flex;
+gap:20px;
+justify-content:center;
+flex-wrap:wrap;
 }
 
-
-.gallery img {
-
-    width: 220px;
-    margin: 10px;
-    border-radius: 8px;
-
+.gallery img{
+width:250px;
+border-radius:10px;
 }
 
-
-.contact {
-
-    padding: 60px;
-    text-align: center;
-
+.whatsapp{
+background:#25D366;
+padding:10px 20px;
+color:white;
+text-decoration:none;
+border-radius:5px;
 }
 
-
-footer {
-
-    background: #111;
-    text-align: center;
-    padding: 20px;
+footer{
+background:black;
+padding:20px;
+}

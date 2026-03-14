@@ -1,0 +1,97 @@
+body {
+
+    margin: 0;
+    font-family: Arial;
+    background: black;
+    color: white;
+
+}
+
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #111;
+
+}
+
+
+nav a {
+
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+
+}
+
+
+.hero {
+
+    height: 500px;
+    background: url('arun.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+.hero h1 {
+
+    font-size: 50px;
+    color: white;
+
+}
+
+
+button {
+
+    padding: 12px 25px;
+    background: gold;
+    border: none;
+    cursor: pointer;
+
+}
+
+
+.about {
+
+    padding: 60px;
+    text-align: center;
+
+}
+
+
+.portfolio {
+
+    padding: 60px;
+    text-align: center;
+
+}
+
+
+.gallery img {
+
+    width: 220px;
+    margin: 10px;
+    border-radius: 8px;
+
+}
+
+
+.contact {
+
+    padding: 60px;
+    text-align: center;
+
+}
+
+
+footer {
+
+    background: #111;
+    text-align: center;
+    padding: 20px;
